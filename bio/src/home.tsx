@@ -1,4 +1,5 @@
 import './App.css';
+import Header from './assets/components/header';
 import Footer from './assets/components/footer';
 
 function App() {
@@ -6,20 +7,7 @@ function App() {
   return (
     <div className=''>
     {/* The header  */}
-    <div className='flex flex-row'>
-      <h1 className='flex-1 text-left
-      hover:text-purple-900 hover:font-bold'>
-        <a href='/'>shyynux</a>
-        </h1>
-      <div className='text-right flex '>
-        <h1 className='px-4 hover:text-purple-500 hover:underline'>projects</h1>
-        <h1 className='px-4 hover:text-purple-500 hover:underline'>blog</h1>
-        <h1 className='px-4 hover:text-purple-500 hover:underline'>
-        <a href='https://shyynux.github.io/reading-list/'>reading-list</a>
-         </h1>
-      </div>
-    </div>
-
+    <Header />
     {/* The body content */}
     <div className='
     font-mono 
