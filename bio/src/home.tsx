@@ -11,20 +11,29 @@ function App() {
     {/* The body content */}
     <div className='
     font-mono 
-    flex flex-col items-center justify-center h-screen
+    flex flex-col items-center justify-center
+    h-screen
+
     '>
-      <div className=''>
+      <div className='text-zinc-500'>
       Hi, I am shyynux,
       <br />
-       a software developer. 
+      a software developer. 
       <br />
-      I am something, something, something.
+      I love building and exploring
       <br />
+       interesting things. 
+      <br />
+      <p className='justify-content'>
+      <br />
+      Passionate about web development,
+      <br />
+       I also enjoy filming videos and reading books, 
+      <br />
+       especially those with unique perspectives.
+      </p>
+     
 
-      I do something, something, something.
-      <br />
-      I live somewhere.
-      <br />
       </div>
       <div className='pt-8'>
       <Footer/>

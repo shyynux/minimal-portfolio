@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faGithubAlt } from '@fortawesome/free-brands-svg-icons';
+import { faGithubAlt, faTwitch } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return(
@@ -14,6 +14,11 @@ const Footer = () => {
             </a>
             <a href='https://github.com/shyynux'>
             <FontAwesomeIcon icon={faGithubAlt} className='px-6
+            hover:text-purple-400 text-3xl
+            ' />
+            </a>
+            <a href='https://www.twitch.tv/shyynux'>
+            <FontAwesomeIcon icon={faTwitch}  className='px-6
             hover:text-purple-400 text-3xl
             ' />
             </a>
