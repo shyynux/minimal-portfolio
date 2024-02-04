@@ -6,6 +6,7 @@ import Projects from './pages/projects.tsx';
 import './index.css'
 import Blog from './pages/blog.tsx';
 import About from './pages/about.tsx';
+import MessagingQueue from './assets/components/blog1.tsx';
 
 export default function App() {
   return (
@@ -15,7 +16,7 @@ export default function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
-
+        <Route path='/MessagingQueue' element={<MessagingQueue />} />
       </Routes>
     </BrowserRouter>
   );

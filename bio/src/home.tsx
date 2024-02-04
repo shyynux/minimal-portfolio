@@ -12,8 +12,8 @@ function App() {
     <div className='
     font-mono 
     flex flex-col items-center justify-center
-    h-screen
-
+    md:h-screen
+    h-auto
     '>
       <div className='text-zinc-500'>
       Hi, I am shyynux,
@@ -24,15 +24,6 @@ function App() {
       <br />
        interesting things. 
       <br />
-      <p className='justify-content'>
-      <br />
-      Passionate about web development,
-      <br />
-       I also enjoy filming videos and reading books, 
-      <br />
-       especially those with unique perspectives.
-      </p>
-     
 
       </div>
       <div className='pt-8'>

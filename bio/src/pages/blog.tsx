@@ -7,15 +7,27 @@ const Blog = () => {
         <>
         <Header />
         <div className="px-60 pt-8">
-            [WORK IN PROGRESS]
         <div className="flex flex-col flex-wrap 
         text-center
         ">
-            <BlogBox />
-            <BlogBox />
-            <BlogBox />
-            <BlogBox />
+            <BlogBox 
+             title="Messaging queues"
+             dateWritten="Oct 12, 2023"
+             description="An Introduction to Messaging queues"
+             url="/MessagingQueue"
+            />
+        {/* 
+            <BlogBox 
+             title=""
+             description=""
+             dateWritten=""
+            />
 
+            <BlogBox 
+             title=""
+             description=""
+             dateWritten=""
+            /> */}
         </div>
         <Footer />
         </div>

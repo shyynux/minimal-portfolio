@@ -6,14 +6,14 @@ const Projects = () => {
     return (
         <>
         <Header />
-        <div className="px-60 pt-8">
+        <div className="md:px-60 pt-8">
         <h1 className="
         font-mono text-left text-zinc-700
         "> projects made by me while exploring tech :) </h1>
-        <div className="flex flex-row flex-wrap
+        <div className="flex md:flex-row flex-wrap
         text-center
         ">
-              <Box
+            <Box
             title="Taskbar"
             description="A simple browser based task management system
             which does not requires you to log-in"

@@ -19,11 +19,11 @@ const Box: React.FC<BoxProps> = ({ title, description, website, github, techStac
     hover:bg-zinc-50
     border-2 border-black
     hover:text-black
-    h-64
-    w-full
-    
+    md:h-64
+    md:w-full
+    h-fit
     '>
-    <div className="p-6 m-4
+    <div className="md:p-6 md:m-4 p-2
         h-1/3
         w-2/3
         text-left
@@ -51,7 +51,7 @@ const Box: React.FC<BoxProps> = ({ title, description, website, github, techStac
       </p>
       <h2></h2>
     </div>
-    <img src={url} alt={title} className='m-6 items-center
+    <img src={url} alt={title} className='hidden md:block md:m-6 items-center
     border-2 border-black
     rounded-md' />
     </div>
