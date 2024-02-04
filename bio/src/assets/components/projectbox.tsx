@@ -6,18 +6,27 @@ interface BoxProps {
   website: string;
   github: string;
   techStack: string;
+  url: string;
 }
 
-const Box: React.FC<BoxProps> = ({ title, description, website, github, techStack }) => {
+const Box: React.FC<BoxProps> = ({ title, description, website, github, techStack, url }) => {
+
   return (
+    <div className='flex flex-row
+    m-2 
+    shadow-xl rounded-xl
+    hover:shadow-2xl
+    hover:bg-zinc-50
+    border-2 border-black
+    hover:text-black
+    h-64
+    w-full
+    
+    '>
     <div className="p-6 m-4
-        rounded-md
-        shadow-md
-        hover:shadow-2xl
-        hover:bg-slate-50
+        h-1/3
         w-2/3
         text-left
-        border-2 border-black
         ">
       <h1 className='
       font-serif text-xl text-purple-800 underline
@@ -41,6 +50,10 @@ const Box: React.FC<BoxProps> = ({ title, description, website, github, techStac
       '>📍 live </a>
       </p>
       <h2></h2>
+    </div>
+    <img src={url} alt={title} className='m-6 items-center
+    border-2 border-black
+    rounded-md' />
     </div>
   );
 };
