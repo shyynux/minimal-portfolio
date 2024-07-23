@@ -7,6 +7,8 @@ import './index.css'
 import Blog from './pages/blog.tsx';
 import About from './pages/about.tsx';
 import MessagingQueue from './assets/components/blog1.tsx';
+import Work from './pages/work.tsx';
+import WorkSamples from './pages/worksamples.tsx';
 
 export default function App() {
   return (
@@ -16,6 +18,8 @@ export default function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/seemywork" element={<WorkSamples />}/>
         <Route path='/MessagingQueue' element={<MessagingQueue />} />
       </Routes>
     </BrowserRouter>

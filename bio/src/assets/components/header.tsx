@@ -16,6 +16,10 @@ const Header = () => {
         </h1>
 
         <h1 className='md:px-4 hover:text-purple-500 hover:underline'>
+          <Link to="/work">work with me</Link>
+        </h1>
+
+        <h1 className='md:px-4 hover:text-purple-500 hover:underline'>
           <Link to="/blog">blog</Link>
         </h1>
 

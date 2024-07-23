@@ -12,6 +12,13 @@ const About = () => {
     '>
         <div className="w-1/2">
         <p className='justify-content'>
+            <p>
+            I have around 2 years of professional work experience,
+            apart from that I have done internships and have been 
+            coding on and off since years as i have a passion for 
+            building stuff. I was also good academically (if that matters) 
+            in school and college. 
+            </p>
       <br />
       Passionate about web development,
       I get obessessed with things and then drown
@@ -23,7 +30,7 @@ const About = () => {
        <br />
       </p>
       <br />
-      Currently I am exploring Golang, I usually work with
+      I usually work with
       react, typescript, javascript, NodeJS and TailwindCSS.
       <br />
       <br />

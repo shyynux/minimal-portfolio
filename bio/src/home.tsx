@@ -5,7 +5,7 @@ import Footer from './assets/components/footer';
 function App() {
 
   return (
-    <div className=''>
+    <div>
     {/* The header  */}
     <Header />
     {/* The body content */}
@@ -24,7 +24,8 @@ function App() {
       <br />
        interesting things. 
       <br />
-
+      available for august, <br />
+       <a href='/work' className='hover:text-purple-500 hover:underline'>work with me</a>
       </div>
       <div className='pt-8'>
       <Footer/>
