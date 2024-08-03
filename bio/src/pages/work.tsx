@@ -5,10 +5,10 @@ import picture from "../assets/images/e82148a6e16eb708165cce8eb116dd56.gif"
 const Work = () => {
     return (
         <>
-            <div className="">
+            <div>
                 <Header />
                 <div className='mt-6 sm:pt-10 font-mono text-zinc-500 flex flex-col items-center justify-center min-h-screen'>
-                    <div className="w-1/2">
+                    <div className="sm:w-1/2">
                         <h2 className="text-2xl font-bold mb-4">How to work with me?</h2>
                         <p className="mb-4">
                             I am <strong>taking</strong> a few <strong>clients for</strong> the month of <strong>August</strong>, please e-mail me 
@@ -18,8 +18,8 @@ const Work = () => {
                         </p>
                         <img src={picture} alt="work w me" className="mx-auto mb-8 rounded-lg" />
                         <h3 className="text-xl font-semibold mt-8 mb-4">✿ Services ✿</h3>
-                        <div className="flex flex-row gap-x-6 text-left my-4">
-                            <div className="w-1/2 rounded-lg shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl  ">
+                        <div className="flex flex-col sm:flex-row sm:gap-x-6 text-left sm:my-4">
+                            <div className="sm:w-1/2 rounded-lg shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl  ">
                                 <h2 className="font-semibold underline">Subscription</h2>
                                 <p className="text-sm">For a minimal monthly subscription fee you get:</p>
                                 <br />
@@ -31,7 +31,7 @@ const Work = () => {
                                 </ul>
                             </div>
 
-                            <div className="w-1/2 rounded-lg shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl ">
+                            <div className="sm:w-1/2 rounded-lg shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl ">
                                 <h2 className="font-semibold underline">One time</h2>
                                 <p className="text-sm">For one time project requirements:</p>
                                 <br />
