@@ -17,49 +17,72 @@ const Work = () => {
                             <a href="https://calendar.app.google/uDf6g4Ncq994n7Q69" className="text-blue-500"> here</a>. 
                         </p>
                         <img src={picture} alt="work w me" className="mx-auto mb-8 rounded-lg" />
+                        <h3 className="text-xl font-semibold mt-8 mb-4">✿ Services ✿</h3>
+                        <div className="flex flex-row gap-x-6 text-left my-4">
+                            <div className="w-1/2 rounded-lg shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl  ">
+                                <h2 className="font-semibold underline">Subscription</h2>
+                                <p className="text-sm">For a minimal monthly subscription fee you get:</p>
+                                <br />
+                                <ul className="list-disc pl-5 space-y-2 text-left text-sm">
+                                    <li>a fully custom coded website (no no-code tools)</li>
+                                    <li>hosting for your website</li>
+                                    <li>domain for your website</li>
+                                    <li>unlimited revisions</li>
+                                </ul>
+                            </div>
+
+                            <div className="w-1/2 rounded-lg shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl ">
+                                <h2 className="font-semibold underline">One time</h2>
+                                <p className="text-sm">For one time project requirements:</p>
+                                <br />
+                                <ul className="list-disc pl-5 space-y-2 text-left text-sm">
+                                    <li>a fully custom coded website (no no-code tools)</li>
+                                    <li>a fully responsive website</li>
+                                    <li>assistance in making the website live</li>
+                                    <li>unlimited revisions until the decided time-frame</li>
+                                </ul>
+                            </div>
+                        </div>
+
                         <p>
                             My main goal is to always create something that aligns with your vision.
                         </p>
                         <p className="mt-2 font-bold">
                             email - shyynux@gmail.com 
                         </p>
-                        <h3 className="text-xl font-semibold mt-8 mb-4">Skills</h3>
-                        <p>
-                            <ul className="list-disc pl-5 space-y-2 text-left">
-                                <li>Web Dev: HTML/CSS, Vite, React, TypeScript, JavaScript, TailwindCSS</li>
-                                <li>Backend Development: NodeJS, Express, Django, Python, Kotlin</li>
-                                <li>more: tRPC, Firebase, Supabase, Appwrite, SQL and NO-SQL based databases</li>
-                                <li>Cloud: AWS</li>
-                            </ul>
-                        </p>
+                        <h3 className="text-xl font-semibold mt-8 mb-4">✿ Skills ✿</h3>
+                        <ul className="list-disc pl-5 space-y-2 text-left">
+                            <li>Web Dev: HTML/CSS, Vite, React, TypeScript, JavaScript, TailwindCSS</li>
+                            <li>Backend Development: NodeJS, Express, Django, Python, Kotlin</li>
+                            <li>more: tRPC, Firebase, Supabase, Appwrite, SQL and NO-SQL based databases</li>
+                            <li>Cloud: AWS</li>
+                        </ul>
 {/*                         
-                        <h3 className="text-xl font-semibold mt-8 mb-4">
-                        recent projects:</h3>
                         <h3 className="text-xl font-semibold mt-8 mb-4">Check out a few projects to see my work:</h3>
-<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-    <div className="border rounded-lg shadow-lg p-4">
-        <h4 className="font-bold">frontend</h4>
-        <p>Project: <a href="https://www.arlo.com" className="text-blue-500">arlo.com</a></p>
-        <p>Tech-stack: React, TypeScript, TailwindCSS, Firebase</p>
-    </div>
-    <div className="border rounded-lg shadow-lg p-4">
-        <h4 className="font-bold">fullstack</h4>
-        <p>Project: <a href="https://www.starbucks.com" className="text-blue-500">starbucks.com</a></p>
-        <p>Tech-stack: React, NodeJS, Express, TypeScript, TailwindCSS, Firebase</p>
-    </div>
-    <div className="border rounded-lg shadow-lg p-4">
-        <h4 className="font-bold">fullstack</h4>
-        <p>Project: <a href="https://skincare.skin" className="text-blue-500">skincare.skin</a></p>
-        <p>Tech-stack: Django, Python, React, Prisma ORM</p>
-    </div>
-    <div className="border rounded-lg shadow-lg p-4">
-        <h4 className="font-bold">landing pages</h4>
-        <p>Project: Landing pages</p>
-        <p>Tech-stack: ReactJS, TypeScript, TailwindCSS</p>
-    </div>
-</div>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div className="border rounded-lg shadow-lg p-4">
+                                <h4 className="font-bold">frontend</h4>
+                                <p>Project: <a href="https://www.arlo.com" className="text-blue-500">arlo.com</a></p>
+                                <p>Tech-stack: React, TypeScript, TailwindCSS, Firebase</p>
+                            </div>
+                            <div className="border rounded-lg shadow-lg p-4">
+                                <h4 className="font-bold">fullstack</h4>
+                                <p>Project: <a href="https://www.starbucks.com" className="text-blue-500">starbucks.com</a></p>
+                                <p>Tech-stack: React, NodeJS, Express, TypeScript, TailwindCSS, Firebase</p>
+                            </div>
+                            <div className="border rounded-lg shadow-lg p-4">
+                                <h4 className="font-bold">fullstack</h4>
+                                <p>Project: <a href="https://skincare.skin" className="text-blue-500">skincare.skin</a></p>
+                                <p>Tech-stack: Django, Python, React, Prisma ORM</p>
+                            </div>
+                            <div className="border rounded-lg shadow-lg p-4">
+                                <h4 className="font-bold">landing pages</h4>
+                                <p>Project: Landing pages</p>
+                                <p>Tech-stack: ReactJS, TypeScript, TailwindCSS</p>
+                            </div>
+                        </div>
                         <p className="mt-4">
-                        more of my work is <a href="/seemywork"  className='text-left hover:text-purple-500 hover:underline'>here</a>
+                            More of my work is <a href="/seemywork" className='text-left hover:text-purple-500 hover:underline'>here</a>
                         </p>
                         <p className="mt-8">
                             Currently I am offering services like the ones above. If you have another requirement, 
