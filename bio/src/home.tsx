@@ -24,7 +24,7 @@ function App() {
       <br />
        interesting things. 
       <br />
-      available for august, <br />
+      available for september, <br />
        <a href='/work' className='hover:text-purple-500 hover:underline'>work with me</a>
       </div>
       <div className='pt-8'>
