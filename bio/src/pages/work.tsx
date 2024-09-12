@@ -11,7 +11,7 @@ const Work = () => {
                     <div className="sm:w-1/2">
                         <h2 className="text-2xl font-bold mb-4">How to work with me?</h2>
                         <p className="mb-4">
-                            I am <strong>taking</strong> a few <strong>clients for</strong> the month of <strong>August</strong>, please e-mail me 
+                            I am <strong>taking</strong> a few <strong>clients for</strong> the month of <strong>september</strong>, please e-mail me 
                             <a href="mailto:shyynux@gmail.com" className="text-blue-500"> here </a> 
                             on how I can help you with your product or you can <u className="font-bold"> book a call</u> directly with me 
                             <a href="https://calendar.app.google/uDf6g4Ncq994n7Q69" className="text-blue-500"> here</a>. 
