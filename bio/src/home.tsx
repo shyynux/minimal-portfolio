@@ -18,13 +18,13 @@ function App() {
       <div className='text-zinc-500'>
       Hi, I am shyynux,
       <br />
-      a software developer. 
+      a software engineer. 
       <br />
       I love building and exploring
       <br />
        interesting things. 
       <br />
-      available for september, <br />
+      <br />
        <a href='/work' className='hover:text-purple-500 hover:underline'>work with me</a>
       </div>
       <div className='pt-8'>
