@@ -25,7 +25,7 @@ function App() {
        interesting things. 
       <br />
       <br />
-       <a href='/work' className='hover:text-purple-500 hover:underline'>work with me</a>
+       <a href='/work' className='hover:text-purple-500 hover:underline'>work with me (closed rn) </a>
       </div>
       <div className='pt-8'>
       <Footer/>
