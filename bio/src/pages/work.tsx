@@ -10,12 +10,15 @@ const Work = () => {
                 <div className='mt-6 sm:pt-10 font-mono text-zinc-500 flex flex-col items-center justify-center min-h-screen'>
                     <div className="sm:w-1/2">
                         <h2 className="text-2xl font-bold mb-4">How to work with me?</h2>
-                        <p className="mb-4">
+                          <p className="mb-4">
+                            not open for work currently. 
+                        </p> 
+{/*                         <p className="mb-4">
                             I am <strong>taking</strong> a few <strong>clients for</strong> the month of <strong>september</strong>, please e-mail me 
                             <a href="mailto:shyynux@gmail.com" className="text-blue-500"> here </a> 
                             on how I can help you with your product or you can <u className="font-bold"> book a call</u> directly with me 
                             <a href="https://calendar.app.google/uDf6g4Ncq994n7Q69" className="text-blue-500"> here</a>. 
-                        </p>
+                        </p> */}
                         <img src={picture} alt="work w me" className="mx-auto mb-8 rounded-lg" />
                         <h3 className="text-xl font-semibold mt-8 mb-4">✿ Services ✿</h3>
                         <div className="flex flex-col sm:flex-row sm:gap-x-6 text-left sm:my-4">
